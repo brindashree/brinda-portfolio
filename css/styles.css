@@ -46,7 +46,7 @@ hr {
   border-radius: 0.5rem;
   color: white;
   display: block;
-  max-width: 130px;
+  max-width: 140px;
   margin: auto;
   /* margin: 1rem 1rem 1rem 0rem; */
 }
@@ -56,7 +56,7 @@ hr {
   border-radius: 0.5rem;
   border: 1px solid var(--primary-yellow);
   display: block;
-  max-width: 130px;
+  max-width: 140px;
   margin: auto;
   /* margin: 1rem 1rem 1rem 0rem; */
 }
@@ -65,7 +65,7 @@ hr {
   border-radius: 0.5rem;
   color: white;
 
-  max-width: 130px;
+  max-width: 140px;
 
   margin: 1rem 1rem 1rem 0rem;
 }
@@ -75,7 +75,7 @@ hr {
   border-radius: 0.5rem;
   border: 1px solid var(--primary-yellow);
 
-  max-width: 130px;
+  max-width: 140px;
 
   margin: 1rem 1rem 1rem 0rem;
 }
