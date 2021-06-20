@@ -1,85 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Brindashree C B</title>
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="max-width">
-      <nav class="navigation container">
-        <div class="nav-brand">WebDev</div>
-        <ul class="list-non-bullet nav-pills">
-          <li class="list-item-inline">
-            <a class="link link-active" href="/">Home</a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="/projects.html">Projects</a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="/blogs.html">Blogs</a>
-          </li>
-        </ul>
-      </nav>
 
-      <header class="hero">
-        <img class="hero-img" src="images/main.svg" />
-        <h1 class="hero-heading">Brindashree C B</h1>
-        <h1 class="hero-heading">
-          <strong><</strong>
-          <span class="heading-inverted"> Web Developer </span
-          ><strong>/></strong>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Home | Brindashree C B</title>
+
+  <!--stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!--boxicons-->
+
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Brindashree C B</a>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link active">Home</a>
+          </li>
+
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item"><a href="#blogs" class="nav__link">Blogs</a></li>
+
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          Hi ! <br />
+          I'm <span class="home__title-color">Brindashree C B</span><br />
+         <span class="code"> < </span> Web Developer <span class="code"> /> </span>
         </h1>
-      </header>
+        <a href="#contact" class="button">Contact</a>
+      </div>
 
-      <section class="section ow">
-        <div class="container container-center">
-          <h1>Technologies</h1>
-          <p class="text-center">I'm familiar with</p>
-          <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">HTML5</li>
-            <li class="list-item-inline">CSS3</li>
-            <li class="list-item-inline">Git</li>
-            <li class="list-item-inline">JavaScript</li>
-            <li class="list-item-inline">NodeJS</li>
-            <li class="list-item-inline">ReactJS</li>
-            <li class="list-item-inline">Web Hosting</li>
-          </ul>
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/brinda-shree" class="home__social-icon">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://github.com/brindashree" class="home__social-icon"><i class="bx bxl-github"></i></a>
+      </div>
+      
+      <div class="home__img">
+        <img src="images/pic-one.jpg" alt="brinda-shree" />
+      </div>
+    </section>
+
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Professional Skills</h2>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-html5 skills__icon'></i>
+              <span class="skills__name">HTML 5</span>
+            </div>
+
+
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-css3 skills__icon'></i>
+              <span class="skills__name">CSS 3</span>
+            </div>
+
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-bootstrap skills__icon'></i>
+              <span class="skills__name">Bootstrap</span>
+            </div>
+
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-javascript skills__icon'></i>
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-git skills__icon'></i>
+              <span class="skills__name">Git</span>
+            </div>
+
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-react skills__icon'></i>
+              <span class="skills__name">React Js</span>
+            </div>
+
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-redux skills__icon'></i>
+              <span class="skills__name">Redux</span>
+            </div>
+
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-firebase skills__icon'></i>
+              <span class="skills__name">Firebase</span>
+            </div>
+
+          </div>
+
         </div>
-      </section>
 
-      <section class="section ob">
-        <div class="container container-center">
-          <h1>Projects</h1>
-          <p class="text-center">You can view my projects hosted online</p>
-
-          <a class="link link-primary" href="projects.html">See Projects</a>
+        <div>
+          <img src="images/skill.svg" alt="" class="skills__img">
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section ow">
-        <div class="container container-center">
-          <h1>Blogs</h1>
-          <p class="text-center">Have a look at my blogs</p>
-          <a class="link link-secondary" href="blogs.html">Read Blogs</a>
+    <!--===== WORK =====-->
+    <section class="work section" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="images/text-n-share.svg" alt="">
+          <div>
+            <h3 class="work__title">Text-n-Share</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://text-n-share.web.app/" class="work__button">Live Project</a>
+            <a href="https://github.com/brindashree/Text-N-Share" class="work__button">Source Code</a>
+          </div>
+
         </div>
-      </section>
+        <div class="work__img">
+          <img src="images/expense-tracker.svg" alt="">
+          <div>
+            <h3 class="work__title">Expense Tracker</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://expense-tracker-f74f5.web.app/" class="work__button">Live Project</a>
+            <a href="https://github.com/brindashree/Expense-Tracker" class="work__button">Source Code</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <img src="images/noteplus.svg" alt="">
+          <div>
+            <h3 class="work__title">NotePlus</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://evernoteclone-377e1.web.app/" class="work__button">Live Project</a>
+            <a href="https://github.com/brindashree/noteplus" class="work__button">Source Code</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <img src="images/movieflix.svg" alt="">
+          <div>
+            <h3 class="work__title">Movie-Flix</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://react-movie-flix.netlify.app/" class="work__button">Live Project</a>
+            <a href="https://github.com/brindashree/Movie-Flix" class="work__button">Source Code</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <img src="images/firegram.svg" alt="">
+          <div>
+            <h3 class="work__title">FavPic</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://firegram-c9c05.web.app/" class="work__button">Live Project</a>
+            <a href="https://github.com/brindashree/firegram" class="work__button">Source Code</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <img src="images/morse-code.svg" alt="">
+          <div>
+            <h3 class="work__title">English -> Morse Code</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://morse-code-translator-neog.netlify.app/" class="work__button">Live Project</a>
+            <a href="https://github.com/brindashree/morse-code-translator" class="work__button">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <footer class="footer">
-        <div class="footer-header">Social Links</div>
-        <ul class="social-links list-non-bullet">
-          <li class="list-item-inline">
-            <a class="link" href="https://github.com/brindashree"> github </a>
-          </li>
+     <section class="work section" id="blogs">
+      <h2 class="section-title">Blogs</h2>
 
-          <li class="list-item-inline">
-            <a class="link" href="https://www.linkedin.com/in/brinda-shree">
-              linkedin
-            </a>
-          </li>
-        </ul>
-      </footer>
+      <div class="blog__container bd-grid">
+        <div class="work__img">
+          <img src="images/js2.jpg" alt="">
+          <div>
+            <h3 class="work__title"> Access JS Object properties</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://hashnode.com/post/how-to-access-javascript-object-properties-ckozyu9850dtncrs1grqlbfk0" class="work__button">Read Blog</a>
+            
+          </div>
+
+        </div>
+        <div class="work__img">
+          <img src="images/react.jpg" alt="">
+          <div>
+            <h3 class="work__title">Introduction to React</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://hashnode.com/post/introduction-to-react-ckp13s2g00lhkdss12vjb136i" class="work__button">Read Blog</a>
+            
+          </div>
+        </div>
+        <div class="work__img">
+          <img src="images/react component.png" alt="">
+          <div>
+            <h3 class="work__title">Types of React Components</h3>
+          </div>
+          <div class="work__info">
+            <a href="https://brindashree.hashnode.dev/types-of-react-components" class="work__button">Read Blog</a>
+            
+          </div>
+        </div>
+        
+       
+        
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <footer class="footer" id="contact">
+   
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/brinda-shree" class="footer__icon"> <i class="bx bxl-linkedin"></i></a>
+      <a href="https://github.com/brindashree" class="footer__icon"><i class="bx bxl-github"></i></a>
+      <a href="#" class="footer__icon"><i class='bx bxl-google'></i></a><span>brindashree29@gmail.com</span>
     </div>
-  </body>
+    <p>&#169; 2020 copyright all right reserved</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+
+
+  <!-- <div class="max-width">
+			<nav class="navigation container">
+				<div class="nav-brand">WebDev</div>
+				<ul class="list-non-bullet nav-pills">
+					<li class="list-item-inline">
+						<a class="link link-active" href="/">Home</a>
+					</li>
+					<li class="list-item-inline">
+						<a class="link" href="/projects.html">Projects</a>
+					</li>
+					<li class="list-item-inline">
+						<a class="link" href="/blogs.html">Blogs</a>
+					</li>
+				</ul>
+			</nav>
+
+			<header class="hero">
+				<img class="hero-img" src="images/main.svg" />
+				<h1 class="hero-heading">Brindashree C B</h1>
+				<h1 class="hero-heading">
+					<strong><</strong>
+					<span class="heading-inverted"> Web Developer </span
+					><strong>/></strong>
+				</h1>
+			</header>
+
+			<section class="section ow">
+				<div class="container container-center">
+					<h1>Technologies</h1>
+					<p class="text-center">I'm familiar with</p>
+					<ul class="list-non-bullet nav-pills">
+						<li class="list-item-inline">HTML5</li>
+						<li class="list-item-inline">CSS3</li>
+						<li class="list-item-inline">Git</li>
+						<li class="list-item-inline">JavaScript</li>
+						<li class="list-item-inline">NodeJS</li>
+						<li class="list-item-inline">ReactJS</li>
+						<li class="list-item-inline">Web Hosting</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="section ob">
+				<div class="container container-center">
+					<h1>Projects</h1>
+					<p class="text-center">You can view my projects hosted online</p>
+
+					<a class="link link-primary" href="projects.html">See Projects</a>
+				</div>
+			</section>
+
+			<section class="section ow">
+				<div class="container container-center">
+					<h1>Blogs</h1>
+					<p class="text-center">Have a look at my blogs</p>
+					<a class="link link-secondary" href="blogs.html">Read Blogs</a>
+				</div>
+			</section>
+
+			<footer class="footer">
+				<div class="footer-header">Social Links</div>
+				<ul class="social-links list-non-bullet">
+					<li class="list-item-inline">
+						<a class="link" href="https://github.com/brindashree"> github </a>
+					</li>
+
+					<li class="list-item-inline">
+						<a class="link" href="https://www.linkedin.com/in/brinda-shree">
+							linkedin
+						</a>
+					</li>
+				</ul>
+			</footer>
+		</div> -->
+
+  <!--scroll reveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--main js-->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
