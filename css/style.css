@@ -16,7 +16,7 @@
 /*===== Fuente y tipografia =====*/
 :root {
 	--body-font: "Poppins", sans-serif;
-	--big-font-size: 2rem;
+	--big-font-size: 1.5rem;
 	--h2-font-size: 1.25rem;
 	--normal-font-size: 0.938rem;
 }
@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 768px) {
 	:root {
-		--big-font-size: 3.5rem;
+		--big-font-size: 3rem;
 		--h2-font-size: 2rem;
 		--normal-font-size: 1rem;
 	}
@@ -442,7 +442,7 @@ img {
 
 	.about__container,
 	.skills__container {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		align-items: center;
 		text-align: initial;
 	}
